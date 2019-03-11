@@ -42,10 +42,10 @@ catalog:
       default: 000@qq.com
 
 services:
-  php-nginx-fine:
+  php-nginx-user:
     scale: 1
     start_on_create: true
-  mysql-fine:
+  mysql-user:
     scale: 1
     start_on_create: true
   php-lb:
